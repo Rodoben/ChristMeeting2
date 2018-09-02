@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
 
 
         String currentDateTimeString = DateFormat.getDateTimeInstance().format(new Date());
-        datetime=(TextView)findViewById(R.id.textView);
+      //  datetime=(TextView)findViewById(R.id.textView);
         datetime.setText(currentDateTimeString);
 
 
